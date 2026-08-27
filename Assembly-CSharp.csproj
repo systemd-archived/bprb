@@ -1,0 +1,2108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{c6d9472c-32ca-9740-f1a7-4380264a3ea3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2022_2_9;UNITY_2022_2;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;DEVELOPMENT_BUILD</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Unity 2022.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity 2022.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ConsumeItemRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserAccountInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardForUsersCharactersRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromSteamIDsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupRoleMembersAddedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WPFMonoBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpringBoxingGlove.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkGameCenterAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CancelTradeResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PressureButtonPressed.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeaderboardSeasonEndDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dCurveTexture.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GrantCharacterToUserRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceComplete.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\LogStatement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StoreMarketingModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTitleNewsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TransformCategory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromGenericIDsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerProfileProperty.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Slot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetSegmentResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkCustomIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\NameIdentifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonAnimator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRace\Cake.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioFX.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAdRewardedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SplashText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\AuthenticationProvider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkWindowsHelloAccountResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartRemovedEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithGoogleAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupRoleDeletedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\EntityLoggedInEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithPlayFabRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\WriteEventResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SecureJsonManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FreeCrateAdReward.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeFormatter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ConsumeItemResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelRewardVideoButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValueToDateModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TrackEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelUnloadNotifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EpisodeSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SimpleFloatingAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\ExecuteCloudScriptResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayOnEnable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SandboxLevels.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonUtilitySubmeshRenderer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterInventoryResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pig.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TextureFilter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LoadLevelEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRace\StartInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DynamicObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SkullPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerProfile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerPhotonSessionAuthenticatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CountryCode.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonDeserializationException.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\DeviceInfoRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTerrainCurveMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateUserDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CloudSaveIcon.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonReaderSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NotificationButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RegisterPlayFabUserRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkIOSDeviceIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UserInputEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\EmptyResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\URLManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\FileSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateSharedGroupDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetSharedGroupDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PushNotificationRegistrationModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RotationTutorial.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PlayerProfileViewConstraints.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AttachmentType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BirdCompassIndicator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithWindowsHelloRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\Adler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveContactEmailResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTimeResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ZTree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTerrain.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IComplexVisibilityObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkWindowsHelloAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Events\PlayFabEvents.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkKongregateAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CreateSharedGroupRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserAndroidDeviceInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkFacebookAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StatisticNameVersion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\AuthTokenValidatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Dessert.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPhotonAuthenticationTokenRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dPreset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelStub.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ItemInstance.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ItemPurchaseRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveGenericIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallengeData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FacebookLoginButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFabSharedSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartButtonLock.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineSkin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExternalMessageManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SetFriendTagsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AtlasRegion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TaskInstanceStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveSharedGroupMembersResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonCallback.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\LineHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\PlayFabSimpleJson.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CartoonFrameTimer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IapPriceButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GizmoUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveSharedGroupMembersRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MotorWheel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleHighErrorRateEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IapManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitlePermissionsPolicyChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\RotateTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CartItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleLimitChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TNT.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GUITextureAspectFix.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Animation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BalloonBalancer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FaceRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardIcon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomizePartWidget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContentLock.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TextureWrap.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomAnimPlay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\InfTree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\MeshTool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UserSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PausePage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioVolumeFader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PurchaseProductConfirmDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WidgetListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PayForPurchaseRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TransportChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\RotateMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTitlePublicKeyResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraExportAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartLevitation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\OperationTypes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromGameCenterIDsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AdvertisementHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TerrainMaterialOverride.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddLevelsToSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BaseTransform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\PlayFabWebRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPublisherDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dVoronoi.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\SharedUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SliderToggle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextMeshHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CancelTradeRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ModifyUserVirtualCurrencyResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\AtlasRegionAttacher.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SandboxSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RaceLevelButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Challenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SubscriptionModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\TagModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomSpritePanel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserCustomIdInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Tail.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SingletonSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GameCenterPlayFabIdPair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\BezierCurve.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkCustomIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PageDot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\WebRequestType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioArea.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRacePersonalBestDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LogStatement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\IJsonSerializerStrategy.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrateRewards.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dMidpoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnTimerHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\CompressionStrategy.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CartItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomizationManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerTradesRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CartoonFrameSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\BezierMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AcceptTradeResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MathsUtil.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonToken.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GoldenPig.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NeatLayout.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextMeshLocale.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\JsonWrapper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RegionInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SplashPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Goal.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\SubmeshInstruction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PlayerProfileModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MaterialsTextureLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerVCPurchaseEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ComplexVisibilityManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteShineEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CatalogItemContainerInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SteamPlayFabIdPair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MaterialTexturePair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallengeRevealAd.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerLinkedAccountEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrateSlots.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InstantiateOnStart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkTwitchAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KeyListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\FacebookPlayFabIdPair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PurchaseItemRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\CurveTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomizationsFullCheck.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\ISubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerRedeemedCouponEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelRowUnlockDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\PathConstraintSpacingTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DessertPlace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sandbag.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayBundleAudio.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AtlasPage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayParticlesOnCollision.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonPartsRenderer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerCombinedInfoResultPayload.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PasswordResetInitiationSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\StudioUserInvitedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameGUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleInitiatedPlayerPasswordResetEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\TitleNewsItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CouponGrantedInventoryItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AddChallenges.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KingPig.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerStatisticsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Tutorial.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrateSlot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnscaledParticles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Public\IPlayFabLogger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AnimationState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\SubmeshInstructionExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkAndroidDeviceIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VerticalScroller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MenuContraptionController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\FlushType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RaceLevelSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomizePartUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerUpdatedContactEmailEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextureLoaderManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TranslateTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\PathConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PositionSerializer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonUtilityGroundConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\ISkeletonAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetContentDownloadUrlResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardForUsersCharactersResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GameInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelSelectorUnlockButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleCreatedTaskEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SandboxLevelButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CloudCollider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ZlibException.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\ScaleTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerExecutedCloudScriptEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetUserInventoryRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MethodCaller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\MathUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\EventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelsUnlockDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PaymentOption.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TerrainColliderGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkFacebookAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\MentalHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\EventTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveGenericIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TNTBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActivatedHingeDoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RefreshLocalizer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ListUsersCharactersRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DoubleRewardButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\TransactionStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetFriendsListRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkFacebookAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerRealMoneyPurchaseEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigHat.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\SimpleJsonInstance.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFabWorkingIcon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupMembersAddedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupCreatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ParallelDeflateOutputStream.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeCompassIndicator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTimeRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Episode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnlockSandboxSequence.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerLinkedAccount.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonGraphic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelLoaderMask.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonUtilityKinematicShadow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\BlendMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameMechanicGift.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerStatisticsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FlowLayout.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\DeformTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DraggableButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromFacebookIDsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerProgressBar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleClientRateLimitedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootWheelPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\PlayFab\PlayFabErrorCode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallengeProgram.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VisibilityConditionManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAdStartedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ZlibStream.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AttributeInstallRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelAudioSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WorkshopIntro.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PressureButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CurrentGamesResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Achievements.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\SubmeshedMeshInstruction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShopTabIndicator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\EntityTokenResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StarLevelTransition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\StudioUserRemovedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetUserDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\AlertLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CharacterVirtualCurrencyBalanceChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PoweredUmbrella.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Format.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerTradesResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IAPProductInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Bridge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateAmazonReceiptRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StoreItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\StatisticLeaderboardSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelLoadedEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LightTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\PlayFab\PlayFabExceptionCode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleRequestedLimitChangeEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\JsonArray.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnlockLootCrateSlotDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteSheetMapping.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\SessionStartedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraPreview.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Umbrella.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BundleSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\WriteClientPlayerEventRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationStateRestore.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GadgetButtonList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelLoadedNotifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigMask.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CrossPromoButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromKongregateIDsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameProgress.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ZlibBaseStream.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceReplayEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioTimeRandomizer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\CustomSkin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RedeemCouponResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Bundle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Scissor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DynamicTNTBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MeshCombine.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TerrainManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dCurveMidpointPreset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelUpEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Public\PlayFabLogger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootWheelSpinner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartSecret.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\WaitForSpineEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\EntityKey.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TransformConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VerticalScrollButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\DeflateManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SourceType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\Container_Dictionary_String_String.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerProfileResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\ApiProcessingEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelBalloon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConfigData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BoxingGlove.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\VertexAttachment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PrizeType.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\IkConstraintTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeaderboardButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Timeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\AuthType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromKongregateIDsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Contraption.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SocialSimulator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromTwitchIDsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnoutCoinAdRewardDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AutoChildActivator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithFacebookRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateAmazonReceiptResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\ArraysSubmeshedMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\ReflectionUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\ArraysSubmeshSetMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StatisticValue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartCountChanged.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CurrencyParticleEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Crc\CRC32.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BundleData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameBuildMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\GZipStream.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerLevelRequirement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GrapplingHook.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupPropertyValues.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithGameCenterRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserKongregateInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrateOpenDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkTwitchAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartCounter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpecialSandboxUnlockDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelRewardData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PayForPurchaseResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootWheelRewardingRoutine.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VirtualCatalogManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelEndPig.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleCompletedTaskEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Kicker.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CloudGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CheatsUtility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\MiniJSON.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Localizer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PressureButtonReleased.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Frame.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CrossPromotionOverlay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetStoreItemsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonLock.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\BezierNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WaypointChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerPayForPurchaseEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeaderboardCupInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\EntityObjectsSetEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DisableAfterAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SetPlayerSecretResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameConfigurationManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameMechanicInfoScreen.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EventProperty.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MaterialAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\DeflateStream.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkKongregateAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GameLobbyStartedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CurrentGamesRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\EmailTemplateType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeaderboardPlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteReference.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BackgroundMaskPosition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterStatisticsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CharacterInventoryItemAddedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Widget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DoubleRewardIcon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GameServerHostStoppedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserGameCenterInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonUtility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterLeaderboardRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\NullValueHandling.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameBuildCustomization.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BuildCustomizationSpecificObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\OpenTradeResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\CompressionLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallengeButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateIOSReceiptRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GoalBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerLeftLobbyEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Effector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromFacebookIDsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelLoadedEventSender.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardAroundPlayerResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ComponentHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KingsFavoriteBubble.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimatedButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateCharacterDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GetMoreScrapDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StatisticModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CryptoUtility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\DisplayNameFilteredEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetUserInventoryResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CommonAudio.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScaleFixForSmallAspectRatio.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonGhost.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardAroundCharacterRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetUserDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NoiseLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DecorationBalloon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimedHide.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CheatsToggle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithSteamRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DisjointSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeCompass.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnmanagedSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WPFPrefs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnscaledAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteIconData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\NameId.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HelperArrow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\SharedModels\HttpResponseObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ResourceBar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConnectToFacebookDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\JsonProperty.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KingPigMouth.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SubscriptionProviderStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Slingshot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\SharedModels\PlayFabResultCommon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AttachmentLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayStreamEventHistory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HUD.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\BoneData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterInventoryRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCatalogItemsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameTime.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DessertFood.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShowOnce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StartGameResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\localizeToons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TransformConstraintData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Egg.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceLockedDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AnimationStateData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkGameCenterAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\EmailVerificationStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromGoogleIDsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerStatisticVersionsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CatalogItemBundleInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\WriteClientCharacterEventRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ParallaxManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkWindowsHelloAccountResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SandboxUnlockDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeaderboardDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigMechanic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlockContainerItemRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextMeshFormattedLocale.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddUsernamePasswordRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardTimeCounter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrateType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddOrUpdateContactEmailRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupRoleCreatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkIOSDeviceIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VisibilityToggle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StartPurchaseResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerReceiptValidationEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RegisterPlayFabUserResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayFabDataGatherer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleDeletedTaskEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupRoleUpdatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddFriendRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GameServerRegionsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SplashScreenSequence.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTradeStatusResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BirdCompass.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerProfileRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnavailablePartButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallengeNextCrates.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SendAccountRecoveryEmailResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddGenericIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromTwitchIDsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BroadCaster.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Skeleton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterLeaderboardResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IAPInterface.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonRenderer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WaveMover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithAndroidDeviceIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CollectBoxAchievement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnInitializeHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KingPigFeedLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CurrencyParticleBurst.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Star.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAdEndedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TutorialBook.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerTagAddedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DragStartedEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShopOpener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TooltipInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPhotonAuthenticationTokenResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\ISerializer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WorkshopMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BasePart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\IPlayFabHttp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MainMenuPromoPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GameLobbyEndedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerCombinedInfoResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EffectManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerReportedAsAbusiveEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetWindowsHelloChallengeResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerSegmentsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CharacterVCPurchaseEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CartWheel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ZlibStreamFlavor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DoubleRewardManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\ContinentCode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SoftCurrencyButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceHUD.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MeshCombiner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerVerifiedContactEmailEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineBone.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Engine.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\EmailVerificationStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateUserTitleDisplayNameResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkSteamAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EventManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\PlayFabDeviceUtil.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\ExposedList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScrapButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\DrawOrderTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeBomb.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ReportPlayerClientResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\ColorTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonSwipe.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkSteamAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFabManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerPasswordResetLinkSentEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SetPlayerSecretRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dPerlinOctave.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SecretPlace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EpisodeLevelInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\PathConstraintMixTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\WorkItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ResourceBarVisibilityConditions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SharpJson\Lexer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkIOSDeviceIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\AlertStates.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayFabSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\SkeletonBinary.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRace\CakeRaceData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GhostPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ListenerPosition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NoChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserGoogleInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\MetricUnit.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PaymentType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleStatisticVersionChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerJoinedLobbyEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimateColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MenuContraptionManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkGoogleAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ResourceBarItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetFriendLeaderboardAroundPlayerResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Balloon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GoldenPigReaction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SuperMagnet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonGhostRenderer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetFriendsListResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Button.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DessertsCounter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomShaderSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerUnlinkedAccountEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateWindowsReceiptRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\StatisticAggregationMethod.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RestoreIOSPurchasesResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RigidbodyRotationConstraints.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleAddedCloudScriptEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\SpacingMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineSlot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Lantern.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Loader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTerrainBoundary.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\EntityCreatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleAbortedTaskEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Reward.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardSystem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\APISettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScoreCounters.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SharedGroupDataRecord.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PageSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnTimedOut.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerVirtualCurrencyBalanceChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateAvatarUrlRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\StudioCreatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveFriendResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AndroidDevicePushNotificationRegistrationRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dGeneratorCurveMethod.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SpriteAttacher.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateUserDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PerfectFlightChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CreditsMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PreviewMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AchievementPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\PlayFabWww.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFabLeaderboard.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FontFade.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExportAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AreaAchievement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\TwitchPlayFabIdPair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AlienEgg.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonRagdoll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MenuLootCrateSlotIndicator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdatePlayerStatisticsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Gearbox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerDisplayNameFilteredEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PlayerLeaderboardEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\SentEmailEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardDataHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserSteamInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveContactEmailRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Empty.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dMeshObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkSteamAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DeviceInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddGenericIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\MembershipModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectiveAchieved.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RenderQueue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetFriendLeaderboardAroundPlayerRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleModifiedGameBuildEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigExpressionSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerTagsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EventSender.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AndroidDevicePushNotificationRegistrationResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\NewsStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\ScriptExecutionError.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PurchaseItemResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerTagsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserPrivateAccountInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InactiveButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateCharacterStatisticsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTitleDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\RegionAttachment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonPulse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KingPigFeedButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BeamLightMask.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\TradeStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartPlacedEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AttributeInstallResult.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonReader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScrollableList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StatisticUpdate.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonNameAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkCustomIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\DoubleBuffered.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\IAnimationStateComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RestoreIOSPurchasesRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\ObjectSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NullIAP.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OptionButtons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KingsFavoriteDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPurchaseResult.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\IJsonSerializable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CreditsScroller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BackgroundScaler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\WriteTitleEventRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CrateCompassIndicator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KingPigFeedBuyButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartListingScrollbutton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceTutorial.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PurchaseInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\MatchmakeRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GoalChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerRegisteredPushNotificationsEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AlienCraftingMachineConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkedPlatformAccountModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GameServerHostStartedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SubtractUserVirtualCurrencyRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Bone.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerCompletedPasswordResetEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Hook.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExplodingGrapplingHookProjectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserIosDeviceInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerCombinedInfoRequestParams.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardVideoButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\InternalConstants.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRace\ObjectLocation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkGameCenterAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleUpdatedTaskEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DontUsePartChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CreditsCluster.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CompactEpisodeSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateSharedGroupDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ZlibCodec.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SettingsPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VisibilityMultiCondition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PushNotificationPlatform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnoutCoinIntro.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CharacterLeaderboardEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LoadObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Rope.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkTwitchAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectiveSlot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerStatisticChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitlePublishedCloudScriptEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardPigRescuePopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\PathConstraintData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Event.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineAttachment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StarsCounter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerStartPurchaseEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAdClosedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomChildActivator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GridLayout.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\DoubleBufferedMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnoutButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Bellows.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddSharedGroupMembersRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkWindowsHelloAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InfiniteEpisodeSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AdReward.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateGooglePlayPurchaseRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleExceededLimitEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RegisterForIOSPushNotificationRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetStoreItemsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GridAnchor.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonMemberAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SetFriendTagsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupUpdatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HUDLayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\Bezier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RaceLevels.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RuntimeSpriteDatabase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GooglePlayFabIdPair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAdCampaignAttributionEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\SourceType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerLocation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CharacterConsumedItemEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\DeflateFlavor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleSecretKeyEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PhotonServicesEnum.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Shop.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\Currency.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Levitation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CloudScriptRevisionOption.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConfirmationPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRace\CakeRaceReplay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NotificationManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\SessionEndedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Tuple.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayFabClientAPI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetAccountInfoResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CreateSharedGroupResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootWheel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromGameCenterIDsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\SkeletonExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerCombinedInfoRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartListing.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\ISkeletonComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\TradeInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DraggingPartEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAdOpenedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pumpkin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerProgress.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Fan.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NotificationQueryDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\BoneFollower.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddOrUpdateContactEmailResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Glue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnapshotEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CharacterInventory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\CompressionMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TextureLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTitlePublicKeyRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnoutCoinShopPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ICurrencyParticleEffectTarget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dConstants.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FixedRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallengeLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceTutorialBook.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddUserVirtualCurrencyRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CollectableType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DeviceDependency.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AlienPointLight.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\IUpdatable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromGenericIDsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RegisterForIOSPushNotificationResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LocalizationReloaded.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BirdWakeUpEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRace\OnCakeCollectedHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StarBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LocalizationEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PulseButtonEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\ShearTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPaymentTokenRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Wings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EpisodeButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithEmailAddressRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FanPropeller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CatalogItemConsumableInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\NameIdentifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyReward.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\BezierFollower.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\StudioUserAddedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PointLight.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTradeStatusRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPaymentTokenResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTitleNewsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkGoogleAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithIOSDeviceIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ReplaceWithPrefab.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserXboxInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PositionAnimator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnPurchaseSucceeded.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddFriendResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PointLightMask.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleStartedTaskEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WebViewManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerRemovedTitleEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SettingsData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerChangedEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GameServerRegionsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddUsernamePasswordResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SpriteAttachmentExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\AtlasAsset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkAndroidDeviceIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Cork.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ToolboxButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StarCountInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterStatisticsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StartPurchaseRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ExecuteCloudScriptResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserOrigination.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnparentExportAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\StartGameRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Bird.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ProgressResetButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CatalogItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dPerlinNoise.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraSpaceTransform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\LeaderboardVersionChangeBehavior.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SocialGameManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ContinentCode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\SlotData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CrateCompass.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BundleTexture.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PlayerStatisticVersion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateWindowsReceiptResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\StatisticResetIntervalOption.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardAroundPlayerRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\SharedModels\PlayFabRequestCommon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GenericServiceId.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AspectRatioController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\FriendInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyRewardBundle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelRigidbody.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RopeVisualization.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleCatalogUpdatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTriangulator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GrantCharacterToUserResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Billboard.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ParallaxCloudMover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\PlayFabUnityHttp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BaseGameMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\BlockState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dPresets.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\LeaderboardSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineAttributeBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ReportPlayerClientRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerTagRemovedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RenderQueueTool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Panel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SnoutCoinSingle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateCharacterStatisticsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerRankedOnLeaderboardVersionEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetFriendLeaderboardRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PushNotificationRegistration.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkFacebookAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\EntityFilesSetEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleAddedGameBuildEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkTwitchAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserDataRecord.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateCharacterDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\InflateBlocks.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DailyChallengeDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConstructionUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SpriteAttachmentLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteFont.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupMembersRemovedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ComicPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetWindowsHelloChallengeRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTerrainGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Cutscene.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScoreChanged.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\PocoJsonSerializerStrategy.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LeaderboardEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetRendererSortingLayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerInventoryItemAddedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFabMatchMaking.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PageScroller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\PathConstraintPositionTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleStoreUpdatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardVideoManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RewardView.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NotificationPopup.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MenuCameraScroller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RealtimeParticles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AchievementData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\MeshAttachment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerStatisticDeletedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Dialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExplodingGrapplingHook.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dCurvePerlinPreset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerCreatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\Log.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LightManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\JunkPrize.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CompactEpisodeTarget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Mushroom.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameObjectEvents.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ScriptExecutionError.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithCustomIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkGoogleAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GameInstanceState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\KongregatePlayFabIdPair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VisibilityCondition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\PlayFab\PlayFabException.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectDeserializer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextMeshSpriteIcons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AtlasMaterials.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RigidbodyFreezer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HatchManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FreeLootCrate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteLocalizer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetTitleDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraSystem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonRenderSeparator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetSharedGroupDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Public\PlayFabLoggerBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleDeletedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ContactEmailInfoModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\IPlayFabSignalR.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CollectionFilter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTerrainColliderMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithTwitchRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameTutorialMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RaceTimeCounter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonRendererCustomMaterials.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FeedingPrize.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\AdCampaignAttribution.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameInAppPurchaseMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\PushNotificationPlatform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AssetTextureLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonGrid.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SliderButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootWheelRewards.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\VirtualCurrencyRechargeTime.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PredefinedRewards.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkSteamAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\PositionMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetLeaderboardAroundCharacterResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartListingScrollbar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\CallRequestContainer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PointLightUpdate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GenericPlayFabIdPair.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CharacterResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetContentDownloadUrlRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SchematicButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginIdentityProvider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\EventLocation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\ContactEmailInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpotLight.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\EntityTypes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ListUsersCharactersResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerStatistic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartSelectedEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdatePlayerStatisticsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteUVSelection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\SkeletonData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PointLightSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PointLightContainer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkGameCenterAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PartSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MetallicObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\InflateManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\MatchmakeStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\PathAttachment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Json.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerSetProfilePropertyEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Attachment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateIOSReceiptResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\SendAccountRecoveryEmailRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Polygon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkIOSDeviceIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RealtimeSkeletonAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPublisherDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContraptionDataset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPurchaseRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BackgroundMask.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExtendedScrollList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\PlayFabHttp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Tooltip.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\StaticTree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MentalTools\MentalMath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerChangedAvatarEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\IkConstraintData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleNewsUpdatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\ISimpleMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\CountryCode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\ArraysMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkKongregateAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTerrainFillMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UpdateUserTitleDisplayNameRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AdCampaignAttributionModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnlockLevelRowPanel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnlockRoadHogsParts.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelComplete.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleAPISettingsChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextMeshLocaleShader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerProgressEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SandboxLevelSpecialButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\JointBreakEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScreenPlacement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationLoop.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IngameCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DessertSelector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkKongregateAccountRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ExecuteCloudScriptRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\Currency.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRace\CakeRaceInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AppRater.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\Region.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BuildCustomizationLoader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleScheduledCloudScriptExecutedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\IkConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AncestorPig.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BuildConfiguration.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PitchRandomizer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LinkAndroidDeviceIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupRoleMembersRemovedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\PlayFabUtil.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserTitleInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spring.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\SkeletonJson.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\PlayFab\ErrorCallback.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BundleDataObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BasePropulsion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpriteText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Collectable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\State.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ServerTime.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceKingsFavorite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkAndroidDeviceIDRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkGoogleAccountResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LocationModel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\ArraysSimpleMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootRewardElement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DestroyWhenNoAudioPlaying.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayStreamEventBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromSteamIDsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GameServerHostStopReason.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\InflateCodes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PullButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrateGraphicSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\Region.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AlienCustomizationManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\LoginWithKongregateRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCharacterDataResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlockContainerItemResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAdRewardValuedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\UpdateBonesDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerMatchedWithLobbyEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ValidateGooglePlayPurchaseResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShopRibbon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\JetEngine.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StickyWheel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\MeshAndMaterials.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserTwitchInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InputEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\Member.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerAddedTitleEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserFacebookInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\GroupDeletedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ConfirmPurchaseResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GadgetControlEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BridgeStep.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeBombExplodeEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\SkeletonBounds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dCurveVoronoiPreset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\InternalInflateConstants.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GuiManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DisableOnAwake.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayFabIDsFromGoogleIDsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LootCrateButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VirtualProductInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WindArea.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\MeshGeneration\ISubmeshSetMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AddSharedGroupMembersResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ResponseCurve.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\RolePropertyValues.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameFlightMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\AcceptTradeRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerTriggeredActionExecutedCloudScriptEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\LoginIdentityProvider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerConsumedItemEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimedDestructor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpringJointValues.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TransactionStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\SpineAtlasRegion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerLoggedInEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameTimePaused.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CoroutineRunner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExtraGoalBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\TitleProfileViewConstraintsChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Skin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CustomPartInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ISocialProvider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CloudMover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFabEvent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WaitForRealSeconds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerSegmentsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlinkCustomIDResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CharacterStatisticChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WorkshopTutorial.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerDisplayNameChangedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenIapDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dGeneratorPeak.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PowerupButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameCenterManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameLevelLoaded.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RegisterWithWindowsHelloRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelStart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Leadboards.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\PlayFab\PlayFabError.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Atlas.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetCatalogItemsResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dVoronoiPeakType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SandboxSkullLevelButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RotateAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\TransformConstraintTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dCurveNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScrollList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\PlayerBannedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SecretStatue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\ConfirmPurchaseRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\Modules\SkeletonRagdoll2D.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RedeemCouponRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeChallenge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\RemoveFriendRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GoldenPigCollectable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Zlib\ZlibConstants.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WebviewDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AlienTNT.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dCurveWalkPreset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\TitleActivationStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WorkshopButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserPsnInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceMeter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFabUserHandling.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameStateChanged.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BetterOffer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LayerHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetPlayerStatisticVersionsRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayStreamModels\CharacterCreatedEventData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\PlayFabLogLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\e2dTerrainMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CakeRaceUnlockedDialog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\Unity\BoundingBoxFollower.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SharpJson\JsonDecoder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\OpenTradeRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spine\AttachmentTimeline.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Rocket.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonTypeCoercionException.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ionic\Crc\CrcCalculatorStream.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UnlockContainerInstanceRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SocialButtons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\ApiProcessingEventType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GadgetButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\GetAccountInfoRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Internal\HttpRequestState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\Json\JsonObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Draggable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\MatchmakeResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayFab\ClientModels\UserDataPermission.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExtraCoinsRewardButton.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding.JsonFx\JsonSerializationException.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OneTimeCollectable.cs" />
+     <None Include="Assets\Shader\Photoshot Effect.shader" />
+     <None Include="Assets\Shader\SpineSkeleton.shader" />
+     <None Include="Assets\Shader\Depth MaskUnlit Transparent (CG).shader" />
+     <None Include="Assets\Shader\_CustomPreAlpha_Unlit_ColorTransparent_Geometry.shader" />
+     <None Include="Assets\Shader\_CustomText Shader With Z Test.shader" />
+     <None Include="Assets\Shader\_CustomUnlit_Color_Geometry.shader" />
+     <None Include="Assets\Shader\_CustomUnlit_Alpha8Bit_Color.shader" />
+     <None Include="Assets\Shader\_CustomPreAlpha_Unlit_ColorTransparent_Geometry_Gray.shader" />
+     <None Include="Assets\Resources\curve.shader" />
+     <None Include="Assets\Shader\_CustomPreAlpha_Unlit_ColorTransparent_Geometry_Shiny.shader" />
+     <None Include="Assets\Resources\fill.shader" />
+     <None Include="Assets\Shader\_CustomUnlit_ColorTransparent_Geometry.shader" />
+     <None Include="Assets\Shader\Depth MaskMaskOverlayNV.shader" />
+     <None Include="Assets\Shader\_CustomUtility_ZWrite.shader" />
+     <None Include="Assets\Shader\Depth MaskMaskOverlay.shader" />
+     <None Include="Assets\Shader\Depth MaskUnlit Transparent ZAlways.shader" />
+     <None Include="Assets\TextAsset\SplashText.txt" />
+     <None Include="Assets\Shader\_CustomDailyChallengeMask.shader" />
+     <None Include="Assets\Shader\_CustomSilhouetteShader.shader" />
+     <None Include="Assets\Shader\_CustomPreAlpha_Unlit_ColorTransparent_GeometryZ.shader" />
+     <None Include="Assets\Shader\_CustomUnlit_Monochrome.shader" />
+    <Reference Include="UnityEngine">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+        <HintPath>C:\Program Files\Unity 2022.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.iOS">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.UI.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+        <HintPath>C:\Users\Aibat309boy\Documents\Unity test\this files unity\BadPiggiesRice\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
